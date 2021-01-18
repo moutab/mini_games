@@ -26,14 +26,12 @@
 pipで必要ライブラリをインストールします。
 
 ```
-:::text
 $ pip install -r requirements.txt
 ```
 
 環境にPythonがインストールされていれば↓のコマンドでプログラムを実行できます。
 
 ```
-:::text
 $ python main.py
 ```
 
