@@ -1,4 +1,4 @@
-import game_window
+from . import game_window
 import random
 
 WINDOW_HEIGHT = 12
@@ -73,7 +73,7 @@ def game(stdscr):
     # 結果を表示　何かキーを押して終了
     niboshi.print_docking_result()
 
-def main():
+def main(args):
     game_window.wrapper(game) # おまじない
 
 if __name__ == '__main__':
