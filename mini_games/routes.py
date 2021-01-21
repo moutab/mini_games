@@ -1,6 +1,7 @@
 # 必要なモジュールをインポート
 from mini_games.games.sample1.main import main as sample1_main
 from mini_games.games.sample2.main import main as sample2_main
+from mini_games.games.omikuzi.main import main as omikuzi_main
 
 
 # ルート情報を表す辞書
@@ -8,4 +9,5 @@ from mini_games.games.sample2.main import main as sample2_main
 routes = {
     'sample1': sample1_main,
     'sample2': sample2_main,    
+    'omikuzi': omikuzi_main,
 }
