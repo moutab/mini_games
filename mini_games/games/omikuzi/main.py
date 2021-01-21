@@ -41,10 +41,10 @@ def kyou():
     print ( '\033[31m'+"凶です。ということでこの後の文字の色が赤色になります。色を戻したいときはもう一度おみくじを引いて凶以外を出してね")
 
 def main(args):
-    print("This is a test\n")
+    print("Enterキーを押すことでおみくじが始まります。\n")
+    input("Enterキーを押しておみくじを始める")
 
     result = random.randrange(1, 100)
-    print(result)
 
     if result % 2 == 0: 
         kichi()
